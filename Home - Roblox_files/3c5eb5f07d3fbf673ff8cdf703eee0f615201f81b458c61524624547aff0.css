@@ -1,0 +1,114 @@
+.light-theme .home-page-upsell-card-banner-container {
+    border: 1px solid rgba(0, 0, 0, .3)
+}
+
+.dark-theme .home-page-upsell-card-banner-container {
+    border: 1px solid hsla(0, 0%, 100%, .3)
+}
+
+.home-page-upsell-card-banner-container {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.home-page-upsell-card-banner-container .home-page-upsell-card-image {
+    margin-right: 24px;
+    margin-left: 12px
+}
+
+.home-page-upsell-card-banner-container .upsell-card-lock-icon-image {
+    min-height: 58px;
+    min-width: 58px;
+    background-position: 100%;
+    background-size: 58px 58px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE3IDE5LjV2LTlBNS41IDUuNSAwIDAxMjIuNSA1djBhNS41IDUuNSAwIDAxNS41IDUuNXY5IiBzdHJva2U9IiM5ODk4OTgiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Ik0zNSAyNC41djBhNC41IDQuNSAwIDAwLTQuNS00LjVIMTZhNiA2IDAgMDAtNiA2djE0LjVNMzUgMzkuNVY0MWEzIDMgMCAwMS0zIDNIMTNhMyAzIDAgMDEtMy0zdi0uNSIgc3Ryb2tlPSIjOTg5ODk4IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIwLjUgMjYuNWE0IDQgMCAwMC00IDR2M2E0IDQgMCAwMDQgNGgxN2E0IDQgMCAwMDQtNHYtM2E0IDQgMCAwMC00LTRoLTE3em0tMiA0YTIgMiAwIDAxMi0yaDE3YTIgMiAwIDAxMiAydjNhMiAyIDAgMDEtMiAyaC0xN2EyIDIgMCAwMS0yLTJ2LTN6bTYgMS41YTEuNSAxLjUgMCAxMS0zIDAgMS41IDEuNSAwIDAxMyAwem00LjUgMS41YTEuNSAxLjUgMCAxMDAtMyAxLjUgMS41IDAgMDAwIDN6bTYgMGExLjUgMS41IDAgMTAwLTMgMS41IDEuNSAwIDAwMCAzeiIgZmlsbD0iIzUyQURGNCIvPjwvc3ZnPg==)
+}
+
+.home-page-upsell-card-banner-container .icon-voice-mic-unmuted {
+    min-height: 48px;
+    min-width: 48px;
+    background-repeat: no-repeat;
+    background-size: 200% auto;
+    width: 48px;
+    height: 48px;
+    background-position: 0 -192px
+}
+
+.home-page-upsell-card-banner-container .upsell-card-horizontal-button-list {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.home-page-upsell-card-banner-container .upsell-card-vertical-button-list {
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.home-page-upsell-card-banner-container .upsell-card-vertical-button-list .btn-secondary-md {
+    margin-top: 12px;
+    border: 0
+}
+
+.light-theme .home-page-upsell-card-banner-container {
+    background-color: #f7f7f8
+}
+
+.dark-theme .home-page-upsell-card-banner-container {
+    background-color: #272930
+}
+
+.home-page-upsell-card-banner-container .banner-contents {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%
+}
+
+.home-page-upsell-card-banner-container .banner-contents .add-email-btn-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto
+}
+
+@media(max-width:991px) {
+    .home-page-upsell-card-banner-container .banner-contents {
+        display: flex;
+        flex-direction: column
+    }
+
+    .home-page-upsell-card-banner-container .banner-contents .add-email-btn-container {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        padding-top: 10px;
+        margin-left: unset
+    }
+
+    .home-page-upsell-card-banner-container .banner-contents .add-email-btn-container .btn-primary-md,
+    .home-page-upsell-card-banner-container .banner-contents .add-email-btn-container .btn-secondary-md,
+    .home-page-upsell-card-banner-container .banner-contents .add-email-btn-container .upsell-card-horizontal-button-list,
+    .home-page-upsell-card-banner-container .banner-contents .add-email-btn-container .upsell-card-vertical-button-list {
+        flex: auto
+    }
+}
+
+.home-page-upsell-card-banner-container .banner-content-container {
+    display: flex;
+    margin-right: auto
+}
+
+.home-page-upsell-card-banner-container .icon-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
