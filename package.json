@@ -1,8 +1,5 @@
 {
-  "devDependencies": {
-    "prettier": "^3.5.3"
-  },
-  "scripts": {
-    "format": "prettier --write \"**/*.js\""
+  "dependencies": {
+    "@hikae/humanify": "^1.0.3"
   }
 }
